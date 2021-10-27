@@ -1,0 +1,22 @@
+.event-container {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 5px 0px 19px -7px #000000;
+  border-radius: 3px;
+}
+.event-container img {
+  border-radius: 15px;
+}
+.event-container button,
+.delete-btn {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 70%;
+}
+.event-container button:hover,
+.delete-btn:hover {
+  background-color: rgb(243, 80, 80);
+  color: white;
+}

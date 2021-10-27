@@ -1,0 +1,24 @@
+.home-container {
+  background-image: url("https://ymcacolumbus.org/sites/default/files/styles/media_full/public/2019-07/volunteer2.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 500px;
+}
+.services-and-search {
+  background-color: rgba(255, 255, 255, 0.705);
+  padding-top: 5vh;
+}
+.search-box {
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  width: 40%;
+}
+.search-btn {
+  border: none;
+  background-color: rgb(12, 135, 235);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-left: -25px;
+}

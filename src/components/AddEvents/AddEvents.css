@@ -1,0 +1,41 @@
+.add-event-custom {
+  height: 100vh;
+}
+.custom-btn-style {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}
+.custom-add-style {
+  padding-top: 10vh;
+  border-radius: 10px;
+  box-shadow: -6px -1px 8px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -6px -1px 8px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px -1px 8px -7px rgba(0, 0, 0, 0.75);
+}
+.custom-btn-style:hover {
+  color: royalblue;
+}
+.add-container {
+  background-color: #f4f7fc;
+  height: 100vh;
+}
+.add-container input {
+  outline: none !important;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.add-container input:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.submit-btn {
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(27, 84, 255);
+}
