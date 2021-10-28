@@ -47,7 +47,7 @@ const EventTask = () => {
       });
   };
 
-  if (event === {}) {
+  if (!event._id) {
     return <CustomSpinner></CustomSpinner>;
   }
   return (
@@ -60,6 +60,7 @@ const EventTask = () => {
         />
         <div className="d-flex justify-content-center align-items-center">
           <div className="registration-form ">
+            <h4>Registration as a volunteer</h4>
             <FloatingLabel
               controlId="floatingInputGrid"
               className="mt-2"
@@ -118,7 +119,7 @@ const EventTask = () => {
         centered>
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-sm">
-            Small Modal
+            <p>Registry to network</p>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
